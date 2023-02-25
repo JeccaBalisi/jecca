@@ -1,0 +1,244 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    <title>Jecca landing page</title>
+    <style>
+
+        section{
+            height: 100vh;
+        }
+        .section1{
+            height: 100vh;
+            background-image: url(bg.jpg);
+            background-repeat: no-repeat;
+           
+            background-size: cover;
+        }
+        nav{
+            
+            background: #00000000;
+            
+        }
+        
+        .links a{
+            color: white;
+        }
+
+        .sec1cont{
+            height: 100vh;
+            padding: 300px 100px 10px 100px;
+        }
+
+        .sec1cont h1{
+            font-size: 60px; 
+            color: aqua;
+        }
+
+        .sec1cont p{
+            font-size: 18px; 
+            color: white;
+        }
+
+        #content1{
+            width: 700px;
+        }
+
+        .buy{
+            width: 300px;
+            margin: 10px 0px;
+        }
+        .containter{
+            padding: 100px 0px 100px 0px;
+        }
+
+        @media only screen and (max-width: 600px) {
+        
+            #content1{
+            width: 300px;
+        }
+
+        .sec1cont{
+            height: 100vh;
+            padding: 300px 10px 10px 10px;
+        }
+
+        .sec1cont h1{
+            font-size: 40px; 
+            color: aqua;
+        }
+
+        .sec1cont p{
+            font-size: 12px; 
+            color: white;
+        }
+        .sec1cont{
+
+        }  
+        .buy{
+            width: 100px;
+        }
+        .section2{
+            height: auto;
+        }
+    }
+    </style>
+</head>
+<body>
+    
+    <section class="section1">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">JCCM</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Profile</a>
+                        <a href="#" class="nav-item nav-link">Messages</a>
+                        <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div  class="container-fluid sec1cont">
+            <div id="content1" class="col-md-6"><!--border border-warning-->
+                <h1>JCC MOBILE</h1>
+                <p>
+                    To find a good opportunity to have a beter work that will help me to improve and enhance my skills and knowledge.
+                </p>
+                <button id="button1" type="button" class="btn m-2 " style="border-radius: 10px; height: 40px; width: 160px; background-color: black; color: white;"><h5><b>Shop now</b></h5></button>
+            </div>
+        </div>
+</section>
+
+<section class="section2 bg-dark" >
+    <div class="container">
+        <div id="container4"class="containter "><!--border border-danger-->
+            <h1 class="text-center " style="color: white;">Best Selling Phones</h1>
+            
+            <div id="container2" class="container row px-5 ">
+                <div class="container row "><!--border border-danger-->
+                    <div class="col-sm-4 " ><!--border border-danger-->
+                        <div class="card my-5" >
+                            <img src="samsung1.png" style="height: 275px;"  class="card-img-top " alt="...">
+                            <div class="card-body text-center text-dark bg-light">
+                                <h5 class="card-title"><b>Samsung s1</b> </h5>
+                                <span>&#8369; 15,000</span>
+                                <br>
+                                <button type="button" class="btn btn-primary buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 " ><!--border border-danger-->
+                        <div class="card my-5" >
+                            <img src="samsung2.png" style="height: 275px;"  class="card-img-top " alt="...">
+                            <div class="card-body text-center text-dark bg-light">
+                                <h5 class="card-title text-left"><b>Samsung s3</b> </h5>
+                                <span>&#8369; 15,000</span>
+                                <br>
+                                <button type="button" class="btn btn-primary buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 " ><!--border border-danger-->
+                        <div class="card my-5" >
+                            <img src="samsung3.png" style="height: 275px;"  class="card-img-top " alt="...">
+                            <div class="card-body text-center text-dark bg-light">
+                                <h5 class="card-title"><b>Samsung s4</b> </h5>
+                                <span>&#8369; 15,000</span>
+                                <br>
+
+                                <button type="button" class="btn btn-primary buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class=" text-center text-white" style="background-color: rgba(0, 0, 0, 0.603);">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <div class="mb-4">
+        <!-- Facebook -->
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+        ></a>
+        </div>
+    <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a><span style="color:white;">JCCM</span></span>  </a>
+    </div>
+    <!-- Copyright -->
+</footer>
+            
+</body>
+</html>
